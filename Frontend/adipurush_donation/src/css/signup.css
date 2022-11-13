@@ -1,0 +1,43 @@
+
+.linkhover{
+    color:#4169e1;
+    cursor:pointer
+}
+.linkhover:hover{
+    color:blue;
+}
+
+.forgetpassword{
+    color:#ba55d3;
+    cursor:pointer;
+}
+.forgetpassword:hover{
+    color:purple;
+}
+
+.homebackground{
+     height:100vh;
+    background-image: url("../Images/ramchild.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: "#cb4154";
+    font-family:"Josefin Slab";
+    }
+    @keyframes blinker {
+    80% {
+    opacity: 0;
+    }
+}
+
+.paymentview{
+    background-image: url("../Images/ramface.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
